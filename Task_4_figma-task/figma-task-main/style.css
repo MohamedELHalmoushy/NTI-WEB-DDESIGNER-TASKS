@@ -1,0 +1,22 @@
+      /* Custom scrollbar for clients logos horizontally */
+      .scrollbar-hide::-webkit-scrollbar {
+        display: none;
+      }
+      .scrollbar-hide {
+        -ms-overflow-style: none;  /* IE and Edge */
+        scrollbar-width: none;  /* Firefox */
+      }
+      /* For the text underline style in "Caring is the new marketing" */
+      .highlight-underline {
+        border: 3px solid #6ee7b7; /* Tailwind emerald-400 */
+        max-width: max-content;
+        margin-left: auto;
+        margin-right: auto;
+      }
+      /* Card hover effect */
+      .card-hover:hover {
+        box-shadow: 0 12px 24px rgba(0,0,0,0.15);
+        transform: translateY(-6px);
+        transition: all 0.3s ease;
+      }
+    
