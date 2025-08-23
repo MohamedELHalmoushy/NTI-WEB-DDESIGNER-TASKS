@@ -1,0 +1,82 @@
+@media (max-width: 768px) {
+    .articles-section .container {
+      flex-direction: column;
+    }
+  
+    .nav-links,
+    .control-icon,
+    .indicator {
+      display: none;
+    }
+  
+    .logo {
+      font-size: 16px;
+    }
+  
+    .bar-icon {
+      display: block;
+    }
+  
+  
+    .latest-articles,
+    .popular-videos {
+      width: 100%;
+      min-width: unset;
+    }
+  
+    .article-card {
+      flex-direction: column;
+      gap: 10px;
+      align-items: center;
+    }
+  
+    .article-card img {
+      width: 100%;
+      height: auto;
+    }
+  
+    .article-text h4 {
+      font-size: 1rem;
+    }
+  
+    .main-content {
+      flex-direction: column;
+    }
+  
+    .about-world-section {
+      border-left: none;
+      border-top: 2px solid #dcd9d9;
+      margin-top: 20px;
+    }
+  
+    .card-container {
+      flex-direction: column;
+    }
+  
+    .left-card {
+      max-width: 100%;
+    }
+  
+    .right-cards {
+      width: 100%;
+    }
+  
+    .hor-card {
+      flex-direction: column;
+    }
+  
+    .hor-card .card {
+      width: 100%;
+    }
+  
+    .footer-container {
+      flex-direction: column;
+      align-items: center;
+      text-align: center;
+    }
+  
+    .links-section {
+      flex-direction: column;
+      gap: 20px;
+    }
+  }
