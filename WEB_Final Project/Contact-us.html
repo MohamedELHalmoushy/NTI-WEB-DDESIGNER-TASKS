@@ -1,0 +1,1027 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Contact US - Merto </title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css">
+  <!-- ICON -->
+  <link rel="icon" href="assets/Images/logo/a-svgrepo-com.svg">
+  <!-- Bootstrap sheet -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-LN+7fdVzj6u52u30Kp6M/trliBMCMKTyK833zpbD+pXdCLuTusPj697FH4R/5mcr" crossorigin="anonymous">
+
+  <!-- Bootstrap Icons -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css" rel="stylesheet">
+  <!-- Animate.css for WOW.js -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+  <link rel="stylesheet" href="assets/css/style.css">
+</head>
+
+<body>
+
+
+  <a href="#logo" class="py-3 px-3  position-fixed bottom-0 end-0 z-3 rounded-2  bg-black"><i
+      class="bi bi-arrow-up text-light"></i></a>
+  <!--  Navbar Scroll -->
+  <section id="NavScroll" class="d-none position-fixed z-3 bg-white shadow-sm">
+
+    <!--  Offcanvas Menu  -->
+    <div class="offcanvas offcanvas-start" tabindex="-1" id="offcanvasMenu">
+      <div class="offcanvas-header">
+        <h5 class="offcanvas-title">SHOP BY CATEGORIES</h5>
+        <button type="button" class="btn-close" data-bs-toggle="offcanvas" data-bs-target="#offcanvasMenu"
+          aria-controls="offcanvasMenu">></button>
+      </div>
+      <div class="offcanvas-body">
+        <a href="#" class="fw-bold text-danger">Homepages</a>
+        <a href="#">Categories</a>
+        <a href="#">Products</a>
+        <a href="#">Pages</a>
+        <a href="#">About us</a>
+        <a href="#">Blog</a>
+        <a href="#"><i class="bi bi-ticket-perforated"></i> Best Discount</a>
+        <a href="#" class="text-muted">Recently viewed</a>
+
+        <hr>
+        <a href="#"><i class="bi bi-heart"></i> Wishlist (0)</a>
+        <a href="#"><i class="bi bi-person"></i> Account</a>
+
+        <hr>
+        <div class="mb-2 fw-bold">Language</div>
+        <div class="d-flex flex-wrap gap-2 mb-3">
+          <span><img src="assets/Images/english.png" width="20" /> English</span>
+          <span><img src="assets/Images/espanol.png" width="20" /> Español</span>
+          <span><img src="assets/Images/francais.png" width="20" /> Français</span>
+          <span><img src="assets/Images/portugues.png" width="20" /> Português</span>
+        </div>
+
+        <div class="mb-2 fw-bold">Currency</div>
+        <div class="d-flex gap-3">
+          <span class="text-decoration-underline">USD</span>
+          <span>EUR</span>
+          <span>BRL</span>
+        </div>
+      </div>
+    </div>
+
+    <!--  Desktop Top Bar-->
+
+    <div class="container-fluid border-bottom py-2 d-none d-lg-block">
+      <div class="row align-items-center px-3">
+
+        <!-- Logo -->
+        <div class="col-md-2 py-4 px-4">
+          <img src="assets/Images/logo/logo.png" alt="Logo" class="w-75" id="logo">
+        </div>
+
+        <!-- Contact Info -->
+        <div class="col-md-2 d-flex align-items-center gap-2 small main-hover">
+          <i class="bi bi-telephone fs-2"></i>
+          <div>
+            <div>Contact us 24/7</div>
+            <strong>(+92) 3942 7879</strong>
+          </div>
+        </div>
+
+        <!-- Search Bar -->
+        <div class="col-md-4  border border-1  border-secondary bg-green py-2 rounded">
+          <div class="row ">
+            <div class="col-md-5">
+              <select class="form-select border-0 ">
+                <option>All Categories</option>
+              </select>
+            </div>
+            <div class="col-md-5">
+              <input type="text" class="form-control border-0 " placeholder="Search for products">
+            </div>
+            <div class="col-md-2">
+              <button class="btn btn-dark"><i class="bi bi-search"></i></button>
+            </div>
+          </div>
+        </div>
+
+        <!-- Language and Currency -->
+        <div class="col-md-2 d-flex align-items-center gap-2">
+
+          <!-- Language Dropdown -->
+          <div class="dropdown">
+            <button class="btn btn-sm dropdown-toggle d-flex align-items-center border bg-white border-0 " type="button"
+              data-bs-toggle="dropdown">
+              <span class="col-md-4"><img src="https://flagcdn.com/w40/us.png" class="img-fluid"></span>
+              <span class="col-md-6">English</span>
+
+            </button>
+            <ul class="dropdown-menu menu-Language ">
+              <li>
+                <a class="dropdown-item d-flex align-items-center" href="#">
+                  <img src="https://flagcdn.com/w40/es.png" class="flag-icon"> Español
+                </a>
+              </li>
+              <li>
+                <a class="dropdown-item d-flex align-items-center" href="#">
+                  <img src="https://flagcdn.com/w40/fr.png" class="flag-icon"> Français
+                </a>
+              </li>
+              <li>
+                <a class="dropdown-item d-flex align-items-center" href="#">
+                  <img src="https://flagcdn.com/w40/pt.png" class="flag-icon"> Português
+                </a>
+              </li>
+            </ul>
+          </div>
+
+          <!-- Currency Dropdown -->
+          <div class="dropdown">
+            <button class="btn btn-sm dropdown-toggle d-flex align-items-center border bg-white border-0" type="button"
+              data-bs-toggle="dropdown">
+              USD
+            </button>
+            <ul class="dropdown-menu menu-Language ">
+              <li>
+                <a class="dropdown-item d-flex align-items-center" href="#">
+                  EUR
+                </a>
+              </li>
+              <li>
+                <a class="dropdown-item d-flex align-items-center" href="#">
+                  BRL
+                </a>
+              </li>
+            </ul>
+          </div>
+        </div>
+
+        <!-- Account, Favorites, Cart -->
+        <div class="col-md-2 d-flex align-items-center justify-content-end gap-3">
+
+          <div class="fw-bold main-hover d-flex align-items-center"><i class="bi bi-person fs-4"></i> Account</div>
+
+          <div class="position-relative">
+            <i class="bi bi-heart main-hover fs-4"></i>
+            <span class="position-absolute top-0 start-100 translate-middle badge rounded-pill bg-danger"
+              id="favCount">0</span>
+          </div>
+
+          <div class="position-relative">
+            <i class="bi bi-cart main-hover fs-4"></i>
+            <span class="position-absolute top-0 start-100 translate-middle badge rounded-pill bg-danger"
+              id="cartCount">0</span>
+          </div>
+          <div class="position-relative">
+            <a href="javascript:void(0)" class="text-dark" id="btn-nav">
+              <i class="bi bi-list-task fs-4 d-block" id="icon-open"></i>
+              <i class="bi bi-x-lg fs-4 d-none" id="icon-close"></i>
+            </a>
+
+          </div>
+        </div>
+
+      </div>
+    </div>
+
+    <!--  Desktop Navbar  -->
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg navbar-light border-bottom px-3 d-none " id="MainNavScroll">
+      <div class="container-fluid">
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#mainNav">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="mainNav">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0 gap-3">
+            <!-- الزر اللي بيفتح Offcanvas -->
+            <li class="nav-item">
+              <a class="nav-link fw-bold main-hover border-end" data-bs-toggle="offcanvas" href="#offcanvasCategories"
+                role="button" aria-controls="offcanvasCategories">
+                <i class="bi bi-list"></i> SHOP BY CATEGORIES
+              </a>
+            </li>
+
+            <!-- باقي عناصر الناف -->
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle main-hover" href="#" data-bs-toggle="dropdown">Homepages</a>
+              <ul class="dropdown-menu menu-Language-2">
+                <li><a class="dropdown-item" href="#">Homepage 1</a></li>
+                <li><a class="dropdown-item" href="#">Homepage 2</a></li>
+              </ul>
+            </li>
+
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle main-hover" href="#" data-bs-toggle="dropdown">Categories</a>
+              <ul class="dropdown-menu  menu-Language-2">
+                <li><a class="dropdown-item" href="#">Category 1</a></li>
+                <li><a class="dropdown-item" href="#">Category 2</a></li>
+              </ul>
+            </li>
+
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle main-hover" href="#" data-bs-toggle="dropdown">Products</a>
+              <ul class="dropdown-menu  menu-Language-2">
+                <li><a class="dropdown-item" href="#">Product 1</a></li>
+                <li><a class="dropdown-item" href="#">Product 2</a></li>
+              </ul>
+            </li>
+
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle main-hover" href="#" data-bs-toggle="dropdown">Pages</a>
+              <ul class="dropdown-menu  menu-Language-2">
+                <li><a class="dropdown-item" href="#">Page 1</a></li>
+                <li><a class="dropdown-item" href="#">Page 2</a></li>
+              </ul>
+            </li>
+
+            <li class="nav-item"><a class="nav-link main-hover" href="#">About us</a></li>
+            <li class="nav-item"><a class="nav-link main-hover" href="#">Blog</a></li>
+            <li class="nav-item"><a class="nav-link main-hover" href="#"><i class="bi bi-tag"></i> Best Discount</a>
+            </li>
+            <div class=" ms-170">
+              <li class="nav-item dropdown ">
+                <a class="nav-link dropdown-toggle main-hover " href="#" data-bs-toggle="dropdown">Recently viewed</a>
+                <ul class="dropdown-menu  menu-Language-2 ">
+                  <li><a class="dropdown-item" href="#">Product 1</a></li>
+                  <li><a class="dropdown-item" href="#">Product 2</a></li>
+                </ul>
+              </li>
+            </div>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <div class="offcanvas offcanvas-start" tabindex="-1" id="offcanvasCategories"
+      aria-labelledby="offcanvasCategoriesLabel">
+      <!-- Header -->
+      <div class="offcanvas-header bg-black text-white">
+        <h5 class="offcanvas-title" id="offcanvasCategoriesLabel">
+          <i class="bi bi-list me-2"></i> SHOP BY CATEGORIES
+        </h5>
+        <button type="button" class="btn-close btn-close-white" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+      </div>
+
+      <!-- Body -->
+      <div class="offcanvas-body p-0">
+        <ul class="list-group list-group-flush">
+          <li class="list-group-item d-flex justify-content-between align-items-center fs-6">
+            <span><i class="bi bi-person me-3 fs-5"></i> Fashion</span>
+            <i class="bi bi-chevron-right text-muted"></i>
+          </li>
+          <li class="list-group-item d-flex justify-content-between align-items-center fs-6">
+            <span><i class="bi bi-phone me-3 fs-5"></i> Phone & Tablet</span>
+            <i class="bi bi-chevron-right text-muted"></i>
+          </li>
+          <li class="list-group-item d-flex justify-content-between align-items-center fs-6">
+            <span><i class="bi bi-laptop me-3 fs-5"></i> Laptop & Computer</span>
+            <i class="bi bi-chevron-right text-muted"></i>
+          </li>
+          <li class="list-group-item d-flex justify-content-between align-items-center fs-6">
+            <span><i class="bi bi-tv me-3 fs-5"></i> TV, Audio – Video</span>
+            <i class="bi bi-chevron-right text-muted"></i>
+          </li>
+          <li class="list-group-item d-flex justify-content-between align-items-center fs-6">
+            <span><i class="bi bi-camera me-3 fs-5"></i> Camera & Photo</span>
+            <i class="bi bi-chevron-right text-muted"></i>
+          </li>
+          <li class="list-group-item d-flex justify-content-between align-items-center fs-6">
+            <span><i class="bi bi-house me-3 fs-5"></i> Home & Decor</span>
+            <i class="bi bi-chevron-right text-muted"></i>
+          </li>
+          <li class="list-group-item d-flex justify-content-between align-items-center fs-6">
+            <span><i class="bi bi-heart-pulse me-3 fs-5"></i> Beauty & Health</span>
+            <i class="bi bi-chevron-right text-muted"></i>
+          </li>
+          <li class="list-group-item d-flex justify-content-between align-items-center fs-6">
+            <span><i class="bi bi-controller me-3 fs-5 "></i> Game Accessories</span>
+            <i class="bi bi-chevron-right text-muted"></i>
+          </li>
+          <li class="list-group-item d-flex justify-content-between align-items-center fs-6">
+            <span><i class="bi bi-gear me-3 fs-5"></i> Autopart</span>
+            <i class="bi bi-chevron-right text-muted"></i>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </section>
+  <!-- End Nav -->
+
+  <!--  Navbar Mobile -->
+  <nav class="navbar  navbar-light bg-white border-bottom px-3 py-2 d-block d-lg-none">
+    <div class="d-flex w-100 justify-content-between align-items-center ">
+      <!-- Toggle Button -->
+      <button class="btn p-0 border-0" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasMenu"
+        aria-controls="offcanvasMenu">
+        <i class="bi bi-list fs-2"></i>
+      </button>
+
+      <!-- Logo Center -->
+      <a class="navbar-brand mx-auto logo" href="#">
+        M<span>e</span>rto
+      </a>
+
+      <!-- Icons Right -->
+      <div class="d-flex align-items-center">
+        <a href="#" class="text-dark me-3"><i class="bi bi-search fs-5"></i></a>
+        <a href="#" class="text-dark position-relative me-3">
+          <i class="bi bi-cart fs-5"></i>
+          <span class="position-absolute top-0 start-100 translate-middle badge rounded-pill bg-danger">0</span>
+        </a>
+      </div>
+    </div>
+  </nav>
+
+  <!--  Offcanvas Menu  -->
+  <div class="offcanvas offcanvas-start" tabindex="-1" id="offcanvasMenu">
+    <div class="offcanvas-header">
+      <h5 class="offcanvas-title">SHOP BY CATEGORIES</h5>
+      <button type="button" class="btn-close" data-bs-toggle="offcanvas" data-bs-target="#offcanvasMenu"
+        aria-controls="offcanvasMenu">></button>
+    </div>
+    <div class="offcanvas-body">
+      <a href="#" class="fw-bold text-danger">Homepages</a>
+      <a href="#">Categories</a>
+      <a href="#">Products</a>
+      <a href="#">Pages</a>
+      <a href="#">About us</a>
+      <a href="#">Blog</a>
+      <a href="#"><i class="bi bi-ticket-perforated"></i> Best Discount</a>
+      <a href="#" class="text-muted">Recently viewed</a>
+
+      <hr>
+      <a href="#"><i class="bi bi-heart"></i> Wishlist (0)</a>
+      <a href="#"><i class="bi bi-person"></i> Account</a>
+
+      <hr>
+      <div class="mb-2 fw-bold">Language</div>
+      <div class="d-flex flex-wrap gap-2 mb-3">
+        <span><img src="assets/Images/english.png" width="20" /> English</span>
+        <span><img src="assets/Images/espanol.png" width="20" /> Español</span>
+        <span><img src="assets/Images/francais.png" width="20" /> Français</span>
+        <span><img src="assets/Images/portugues.png" width="20" /> Português</span>
+      </div>
+
+      <div class="mb-2 fw-bold">Currency</div>
+      <div class="d-flex gap-3">
+        <span class="text-decoration-underline">USD</span>
+        <span>EUR</span>
+        <span>BRL</span>
+      </div>
+    </div>
+  </div>
+
+  <!--  Desktop Top Bar-->
+
+  <div class="container-fluid border-bottom py-2 d-none d-lg-block">
+    <div class="row align-items-center px-3">
+
+      <!-- Logo -->
+      <div class="col-md-2 py-4 px-4">
+        <img src="assets/Images/logo/logo.png" alt="Logo" class="w-75" id="logo">
+      </div>
+
+      <!-- Contact Info -->
+      <div class="col-md-2 d-flex align-items-center gap-2 small main-hover">
+        <i class="bi bi-telephone fs-2"></i>
+        <div>
+          <div>Contact us 24/7</div>
+          <strong>(+92) 3942 7879</strong>
+        </div>
+      </div>
+
+      <!-- Search Bar -->
+      <div class="col-md-4  border border-1  border-secondary bg-green py-2 rounded">
+        <div class="row ">
+          <div class="col-md-5">
+            <select class="form-select border-0 ">
+              <option>All Categories</option>
+            </select>
+          </div>
+          <div class="col-md-5">
+            <input type="text" class="form-control border-0 " placeholder="Search for products">
+          </div>
+          <div class="col-md-2">
+            <button class="btn btn-dark"><i class="bi bi-search"></i></button>
+          </div>
+        </div>
+      </div>
+
+      <!-- Language and Currency -->
+      <div class="col-md-2 d-flex align-items-center gap-2">
+
+        <!-- Language Dropdown -->
+        <div class="dropdown">
+          <button class="btn btn-sm dropdown-toggle d-flex align-items-center border bg-white border-0 " type="button"
+            data-bs-toggle="dropdown">
+            <span class="col-md-4"><img src="https://flagcdn.com/w40/us.png" class="img-fluid"></span>
+            <span class="col-md-6">English</span>
+
+          </button>
+          <ul class="dropdown-menu menu-Language ">
+            <li>
+              <a class="dropdown-item d-flex align-items-center" href="#">
+                <img src="https://flagcdn.com/w40/es.png" class="flag-icon"> Español
+              </a>
+            </li>
+            <li>
+              <a class="dropdown-item d-flex align-items-center" href="#">
+                <img src="https://flagcdn.com/w40/fr.png" class="flag-icon"> Français
+              </a>
+            </li>
+            <li>
+              <a class="dropdown-item d-flex align-items-center" href="#">
+                <img src="https://flagcdn.com/w40/pt.png" class="flag-icon"> Português
+              </a>
+            </li>
+          </ul>
+        </div>
+
+        <!-- Currency Dropdown -->
+        <div class="dropdown">
+          <button class="btn btn-sm dropdown-toggle d-flex align-items-center border bg-white border-0" type="button"
+            data-bs-toggle="dropdown">
+            USD
+          </button>
+          <ul class="dropdown-menu menu-Language ">
+            <li>
+              <a class="dropdown-item d-flex align-items-center" href="#">
+                EUR
+              </a>
+            </li>
+            <li>
+              <a class="dropdown-item d-flex align-items-center" href="#">
+                BRL
+              </a>
+            </li>
+          </ul>
+        </div>
+      </div>
+
+      <!-- Account, Favorites, Cart -->
+      <div class="col-md-2 d-flex align-items-center justify-content-end gap-3">
+
+        <div class="fw-bold main-hover d-flex align-items-center"><i class="bi bi-person fs-4"></i> Account</div>
+
+        <div class="position-relative">
+          <i class="bi bi-heart main-hover fs-4"></i>
+          <span class="position-absolute top-0 start-100 translate-middle badge rounded-pill bg-danger"
+            id="favCount">0</span>
+        </div>
+
+        <div class="position-relative">
+          <i class="bi bi-cart main-hover fs-4"></i>
+          <span class="position-absolute top-0 start-100 translate-middle badge rounded-pill bg-danger"
+            id="cartCount">0</span>
+        </div>
+      </div>
+
+    </div>
+  </div>
+
+  <!--  Desktop Navbar  -->
+  <!-- Navbar -->
+  <nav class="navbar navbar-expand-lg navbar-light border-bottom px-3 d-none d-lg-block">
+    <div class="container-fluid">
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#mainNavigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <div class="collapse navbar-collapse" id="mainNavigation">
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0 gap-3">
+          <!-- الزر الذي يفتح Offcanvas -->
+          <li class="nav-item">
+            <a class="nav-link fw-bold main-hover border-end" data-bs-toggle="offcanvas" href="#categoriesPanel"
+              role="button" aria-controls="categoriesPanel">
+              <i class="bi bi-list"></i> SHOP BY CATEGORIES
+            </a>
+          </li>
+
+          <!-- باقي عناصر الناف -->
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle main-hover" href="#" data-bs-toggle="dropdown">Homepages</a>
+            <ul class="dropdown-menu dropdown-menu-custom">
+              <li><a class="dropdown-item" href="#">Homepage 1</a></li>
+              <li><a class="dropdown-item" href="#">Homepage 2</a></li>
+            </ul>
+          </li>
+
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle main-hover" href="#" data-bs-toggle="dropdown">Categories</a>
+            <ul class="dropdown-menu dropdown-menu-custom">
+              <li><a class="dropdown-item" href="#">Category 1</a></li>
+              <li><a class="dropdown-item" href="#">Category 2</a></li>
+            </ul>
+          </li>
+
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle main-hover" href="#" data-bs-toggle="dropdown">Products</a>
+            <ul class="dropdown-menu dropdown-menu-custom">
+              <li><a class="dropdown-item" href="#">Product 1</a></li>
+              <li><a class="dropdown-item" href="#">Product 2</a></li>
+            </ul>
+          </li>
+
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle main-hover" href="#" data-bs-toggle="dropdown">Pages</a>
+            <ul class="dropdown-menu dropdown-menu-custom">
+              <li><a class="dropdown-item" href="#">Page 1</a></li>
+              <li><a class="dropdown-item" href="#">Page 2</a></li>
+            </ul>
+          </li>
+
+          <li class="nav-item"><a class="nav-link main-hover" href="#">About us</a></li>
+          <li class="nav-item"><a class="nav-link main-hover" href="#">Blog</a></li>
+          <li class="nav-item"><a class="nav-link main-hover" href="#"><i class="bi bi-tag"></i> Best Discount</a></li>
+          <div class="ms-170">
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle main-hover" href="#" data-bs-toggle="dropdown">Recently viewed</a>
+              <ul class="dropdown-menu dropdown-menu-custom">
+                <li><a class="dropdown-item" href="#">Product 1</a></li>
+                <li><a class="dropdown-item" href="#">Product 2</a></li>
+              </ul>
+            </li>
+          </div>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <div class="offcanvas offcanvas-start" tabindex="-1" id="categoriesPanel" aria-labelledby="categoriesPanelLabel">
+    <!-- Header -->
+    <div class="offcanvas-header bg-black text-white">
+      <h5 class="offcanvas-title" id="categoriesPanelLabel">
+        <i class="bi bi-list me-2"></i> SHOP BY CATEGORIES
+      </h5>
+      <button type="button" class="btn-close btn-close-white" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+    </div>
+
+    <!-- Body -->
+    <div class="offcanvas-body p-0">
+      <ul class="list-group list-group-flush">
+        <li class="list-group-item d-flex justify-content-between align-items-center fs-6">
+          <span><i class="bi bi-person me-3 fs-5"></i> Fashion</span>
+          <i class="bi bi-chevron-right text-muted"></i>
+        </li>
+        <li class="list-group-item d-flex justify-content-between align-items-center fs-6">
+          <span><i class="bi bi-phone me-3 fs-5"></i> Phone & Tablet</span>
+          <i class="bi bi-chevron-right text-muted"></i>
+        </li>
+        <li class="list-group-item d-flex justify-content-between align-items-center fs-6">
+          <span><i class="bi bi-laptop me-3 fs-5"></i> Laptop & Computer</span>
+          <i class="bi bi-chevron-right text-muted"></i>
+        </li>
+        <li class="list-group-item d-flex justify-content-between align-items-center fs-6">
+          <span><i class="bi bi-tv me-3 fs-5"></i> TV, Audio – Video</span>
+          <i class="bi bi-chevron-right text-muted"></i>
+        </li>
+        <li class="list-group-item d-flex justify-content-between align-items-center fs-6">
+          <span><i class="bi bi-camera me-3 fs-5"></i> Camera & Photo</span>
+          <i class="bi bi-chevron-right text-muted"></i>
+        </li>
+        <li class="list-group-item d-flex justify-content-between align-items-center fs-6">
+          <span><i class="bi bi-house me-3 fs-5"></i> Home & Decor</span>
+          <i class="bi bi-chevron-right text-muted"></i>
+        </li>
+        <li class="list-group-item d-flex justify-content-between align-items-center fs-6">
+          <span><i class="bi bi-heart-pulse me-3 fs-5"></i> Beauty & Health</span>
+          <i class="bi bi-chevron-right text-muted"></i>
+        </li>
+        <li class="list-group-item d-flex justify-content-between align-items-center fs-6">
+          <span><i class="bi bi-controller me-3 fs-5 "></i> Game Accessories</span>
+          <i class="bi bi-chevron-right text-muted"></i>
+        </li>
+        <li class="list-group-item d-flex justify-content-between align-items-center fs-6">
+          <span><i class="bi bi-gear me-3 fs-5"></i> Autopart</span>
+          <i class="bi bi-chevron-right text-muted"></i>
+        </li>
+      </ul>
+    </div>
+  </div>
+  <!-- End Nav -->
+
+  <!-- Contact us -->
+  <div class="container wow animate__fadeIn" data-wow-duration="1s">
+    <div class="row justify-content-center mt-4">
+      <div class="col-md-10 col-12">
+        <div class="text-center mt-4">
+          <p class="h1 fs-48 fw-bold wow animate__fadeInUp">Contact us</p>
+          <p class="fs-12 wow animate__fadeInUp" data-wow-delay="0.3s">34 Main Street, Los Angeles 9021 <br><span
+              class="fs-11">United States</span></p>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Customer service -->
+  <section>
+    <div class="container py-3">
+      <div class="row justify-content-center align-items-center align-content-center">
+
+
+        <!-- Phone Support -->
+        <div class="col-md-2 mb-4 wow animate__fadeInUp" data-wow-delay="0.2s">
+          <div class="card h-100 border-0">
+            <div class="card-body text-center">
+              <h5 class="card-title fs-6">
+                <i class="bi bi-telephone fs-4 "></i><br>
+                Customer service
+              </h5>
+              <p class="card-text text-decoration-underline">
+                +92 3942 7879<br>
+                <small class="text-muted fs-11">Call us from 8am to 8pm</small>
+              </p>
+            </div>
+          </div>
+        </div>
+
+        <!-- Live Chat -->
+        <div class="col-md-2 mb-4 wow animate__fadeInUp" data-wow-delay="0.3s">
+          <div class="card h-100 border-0">
+            <div class="card-body text-center">
+              <h5 class="card-title fs-6">
+                <i class="bi bi-chat-dots fs-4 "></i><br>
+                Chat with us
+              </h5>
+              <p class="card-text text-decoration-underline">
+                <i class="bi bi-circle-fill fs-11 text-success "></i> Live Chat<br>
+                <small class="text-muted">Daily: 8 am to 11 pm</small>
+              </p>
+            </div>
+          </div>
+        </div>
+
+        <!-- Email -->
+        <div class="col-md-2 mb-4 wow animate__fadeInUp" data-wow-delay="0.4s">
+          <div class="card h-100 border-0">
+            <div class="card-body text-center">
+              <h5 class="card-title fs-6">
+                <i class="bi bi-envelope fs-3 "></i><br>
+                Write to us
+              </h5>
+              <p class="card-text text-decoration-underline fs-6">
+                contact@example.com
+              </p>
+            </div>
+          </div>
+        </div>
+
+        <!-- Social Media -->
+        <div class="col-md-2 mb-4 wow animate__fadeInUp" data-wow-delay="0.5s">
+          <div class="card h-100 border-0">
+            <div class="card-body text-center">
+              <h5 class="card-title fs-6">
+                <i class="bi bi-people fs-3"></i><br>
+                Follow us
+              </h5>
+              <div class="d-flex justify-content-center">
+                <a href="#" class="text-dark mx-2"><i class="bi bi-facebook fs-6"></i></a>
+                <a href="#" class="text-dark mx-2"><i class="bi bi-twitter fs-6"></i></a>
+                <a href="#" class="text-dark mx-2"><i class="bi bi-instagram fs-6"></i></a>
+                <a href="#" class="text-dark mx-2"><i class="bi bi-linkedin fs-6"></i></a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- Contact Form -->
+  <h5 class="fw-bold text-center">Do you have some questions?</h5>
+
+  <form class="row g-3 mt-3 justify-content-center" id="contactForm" novalidate>
+    <div class="col-md-5">
+      <input type="text" class="form-control" id="name" placeholder="Name and Surname" required>
+      <small class="text-danger d-none" id="nameError">*Name must be at least 3 characters</small>
+    </div>
+    <div class="col-md-5">
+      <input type="email" class="form-control" id="email" placeholder="Email" required>
+      <small class="text-danger d-none" id="emailError">*Enter a valid email address</small>
+    </div>
+    <div class="col-md-10">
+      <input type="text" class="form-control" id="subject" placeholder="Subject" required>
+      <small class="text-danger d-none" id="subjectError">*required</small>
+    </div>
+    <div class="col-md-10">
+      <textarea class="form-control" id="message" rows="4" placeholder="Message" required></textarea>
+      <small class="text-danger d-none" id="messageError">*required</small>
+    </div>
+    <div class="col-md-10 mt-3 mb-5">
+      <button type="submit" class="btn btn-dark w-100">GET IN TOUCH</button>
+    </div>
+  </form>
+
+  <script>
+    document.addEventListener("DOMContentLoaded", function () {
+      const form = document.getElementById("contactForm");
+
+      // Email regex
+      const emailRegex = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
+
+      const fields = [
+        {
+          input: document.getElementById("name"),
+          error: document.getElementById("nameError"),
+          validate: (val) => val.trim().length >= 3
+        },
+        {
+          input: document.getElementById("email"),
+          error: document.getElementById("emailError"),
+          validate: (val) => emailRegex.test(val.trim())
+        },
+        {
+          input: document.getElementById("subject"),
+          error: document.getElementById("subjectError"),
+          validate: (val) => val.trim() !== ""
+        },
+        {
+          input: document.getElementById("message"),
+          error: document.getElementById("messageError"),
+          validate: (val) => val.trim() !== ""
+        }
+      ];
+
+      // Validate single field
+      function validateField(field) {
+        if (field.validate(field.input.value)) {
+          field.error.classList.add("d-none");
+          field.input.classList.remove("is-invalid");
+          field.input.classList.add("is-valid");
+          return true;
+        } else {
+          field.error.classList.remove("d-none");
+          field.input.classList.remove("is-valid");
+          field.input.classList.add("is-invalid");
+          return false;
+        }
+      }
+
+      // Real-time validation
+      fields.forEach(field => {
+        field.input.addEventListener("input", () => validateField(field));
+      });
+
+      // On submit check all
+      form.addEventListener("submit", function (event) {
+        let valid = true;
+        fields.forEach(field => {
+          if (!validateField(field)) {
+            valid = false;
+          }
+        });
+
+        if (!valid) {
+          event.preventDefault(); // stop submission
+        }
+      });
+    });
+  </script>
+
+  <!-- maps -->
+  <section class="wow animate__fadeIn" data-wow-duration="1.5s">
+    <iframe
+      src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3456.545!2d31.2101!3d30.0276!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x145840e4874e0c4b%3A0xYourPlaceID!2sCairo%20University!5e0!3m2!1sen!2seg!4v0000000000000!5m2!1sen!2seg"
+      width="100%" height="500" style="border:0;" allowfullscreen="" loading="lazy"
+      referrerpolicy="no-referrer-when-downgrade">
+    </iframe>
+
+  </section>
+  <!-- section cards -->
+  <section>
+    <div class="container-fluid py-5 wow animate__fadeIn" data-wow-duration="1s">
+      <h2 class="text-center mb-5 wow animate__fadeInDown" data-wow-duration="1.2s">Stores around the world</h2>
+
+      <div class="row g-4 justify-content-center align-content-center">
+        <!-- Los Angeles Store -->
+        <div class="col-md-4 wow animate__zoomIn" data-wow-delay="0.2s">
+          <div class="card h-100 border-0 shadow-sm store-card">
+            <div class="card-body text-start p-4">
+              <div class="overflow-hidden rounded-top">
+                <img src="assets/Images/contact/about-2.jpg" alt="Los Angeles Store"
+                  class="img-fluid im-cadr wow animate__fadeIn" data-wow-delay="0.3s">
+              </div>
+              <h4 class="card-title text-dark mb-3 mt-3 wow animate__fadeInUp" data-wow-delay="0.4s">
+                Los Angeles
+              </h4>
+              <div class="card-text wow animate__fadeIn" data-wow-delay="0.5s">
+                <p class="mb-2">34 Main Street, Los Angeles 9021</p>
+                <p class="mb-2">United States</p>
+                <p class="mb-0">
+                  <i class="fas fa-phone-alt me-2"></i>+02 1234 567 88
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- New York Store -->
+        <div class="col-md-4 wow animate__zoomIn" data-wow-delay="0.3s">
+          <div class="card h-100 border-0 shadow-sm store-card">
+            <div class="card-body text-start p-4">
+              <div class="overflow-hidden rounded-top">
+                <img src="assets/Images/contact/about-3.jpg" alt="New York Store"
+                  class="img-fluid im-cadr wow animate__fadeIn" data-wow-delay="0.4s">
+              </div>
+              <h4 class="card-title text-dark mb-3 mt-3 wow animate__fadeInUp" data-wow-delay="0.5s">
+                New York
+              </h4>
+              <div class="card-text wow animate__fadeIn" data-wow-delay="0.6s">
+                <p class="mb-2">515 Broadway 10015 New York</p>
+                <p class="mb-2">United States</p>
+                <p class="mb-0">
+                  <i class="fas fa-phone-alt me-2"></i>+49 1234 567 88
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- California Store -->
+        <div class="col-md-4 wow animate__zoomIn" data-wow-delay="0.4s">
+          <div class="card h-100 border-0 shadow-sm store-card">
+            <div class="card-body text-start p-4">
+              <div class="overflow-hidden rounded-top">
+                <img src="assets/Images/contact/about-4.jpg" alt="California Store"
+                  class="img-fluid im-cadr wow animate__fadeIn" data-wow-delay="0.5s">
+              </div>
+              <h4 class="card-title text-dark mb-3 mt-3 wow animate__fadeInUp" data-wow-delay="0.6s">
+                California
+              </h4>
+              <div class="card-text wow animate__fadeIn" data-wow-delay="0.7s">
+                <p class="mb-2">1000 California St 68114 Omaha</p>
+                <p class="mb-2">United States</p>
+                <p class="mb-0">
+                  <i class="fas fa-phone-alt me-2"></i>+44 1234 567 88
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <section>
+    <footer class="bg-dark wow animate__fadeIn" data-wow-duration="1s">
+      <div class="container-flud px-5">
+        <div class="row">
+          <!-- Contact Info -->
+          <div class="col-md-3 mb-4 mb-md-0 wow animate__fadeInUp" data-wow-delay="0.2s">
+            <h5 class="img-fluid"><img src="assets/Images/logo/logo-2.png" alt="" class="w-50 mt-5"></h5>
+            <address class="text-light">
+              <span class="mb-5">29 SE 2nd Ave, Miami Florida</span><br>
+              <span class="mb-5">33BJ, United States</span><br>
+              <a href="mailto:info@example.com" class="mb-5"> info@example.com</a><br>
+              <strong class="mt-5">(+92) 3942 7879</strong>
+            </address>
+          </div>
+
+          <!-- Shopping Links -->
+          <div class="col-md-2 mb-4 mb-md-0 mt-md-4 mt-0 wow animate__fadeInUp" data-wow-delay="0.3s">
+            <h5 class="fs-4 text-light">SHOPPING</h5>
+            <ul class="footer-links">
+              <li><a href="#" class="active ">Wishlist</a></li>
+              <li><a href="#">Shop by Brand</a></li>
+              <li><a href="#">Offers</a></li>
+              <li><a href="#">Track order</a></li>
+              <li><a href="#">Size Guide</a></li>
+            </ul>
+          </div>
+
+          <!-- Information Links -->
+          <div class="col-md-2 mb-4 mb-md-0 mt-md-4 mt-0 wow animate__fadeInUp" data-wow-delay="0.4s">
+            <h5 class="fs-4 text-light ">INFORMATION</h5>
+            <ul class="footer-links">
+              <li><a href="#" class="active">Track Order</a></li>
+              <li><a href="#">Shipping & Returns</a></li>
+              <li><a href="#">About us</a></li>
+              <li><a href="#">Help</a></li>
+              <li><a href="#">Gift Cards</a></li>
+            </ul>
+          </div>
+
+          <!-- Account Links -->
+          <div class="col-md-2 mb-4 mb-md-0 mt-md-4 mt-0 wow animate__fadeInUp" data-wow-delay="0.5s">
+            <h5 class=" fs-4 text-light">ACCOUNT</h5>
+            <ul class="footer-links">
+              <li><a href="#" class="active ">Cart</a></li>
+              <li><a href="#">My account</a></li>
+              <li><a href="#">My orders</a></li>
+              <li><a href="#">Wishlist</a></li>
+              <li><a href="#">Affiliate Program</a></li>
+            </ul>
+          </div>
+          <div class="col-md-3 mb-4 mb-md-0 mt-md-5 mt-0 wow animate__fadeInUp" data-wow-delay="0.6s">
+            <h5 class=" mt-md-2 mt-0 text-light">Let's keep in touch</h5>
+            <div
+              class="position-relative my-md-3  mt-0 bg-dark borde-0  text-light border border-1 border-secondary rounded py-2 ">
+              <input type="email" class="bg-dark ps-3 border-0 w-100" placeholder="enter your email address">
+              <i class="p-absolute bi bi-arrow-right hover-red-text fs-6 "></i></span></span>
+            </div>
+            <div class="socail  ">
+              <a href="#" class="text-secondary me-3 "><i class="bi bi-facebook fs-5 hover-red-text"></i></a>
+              <a href="#" class="text-secondary ms-lg-1"><i class="bi bi-twitter fs-5 hover-red-text"></i></a>
+              <a href="#" class="text-secondary ms-lg-3"><i class="bi bi-tiktok fs-5 hover-red-text"></i></i></a>
+              <a href="#" class="text-secondary mx-lg-3"><i class="bi bi-instagram fs-5 hover-red-text"></i></a>
+              <a href="#" class="text-secondary mx-lg-3"><i class="bi bi-linkedin fs-5 hover-red-text"></i></a>
+            </div>
+          </div>
+        </div>
+
+        <!-- Email Subscription -->
+        <div class="container-flud">
+          <div class="row justify-content-center ">
+            <div class="col-md-12 d-flex py-1 px-5 border border-1 border-secondary rounded shadow-sm">
+              <div class="col-md-4 mt-4 ">
+                <div class="d-flex">
+                  <i class="bi bi-telephone fs-3 me-2 text-light"></i>
+                  <p>
+                    <span class="fs-12 text-light">Didn't find what you were looking for?</span><br>
+                    <a href="Contact-us.html"><span class="fs-11 text-decoration-underline text-light">Contact
+                        us</span></a>
+                  </p>
+                </div>
+              </div>
+              <div class="col-md-4  mt-4">
+                <div class="d-flex">
+                  <i class="bi bi-emoji-smile fs-3 me-2 text-light"></i>
+                  <p>
+                    <span class="fs-12 text-light">How can we help you today?</span><br>
+                    <a href="Contact-us.html"><span class="fs-11 text-decoration-underline text-light">Help
+                        Center</span></a>
+                  </p>
+                </div>
+              </div>
+              <div class="col-md-4  mt-4">
+                <div class="d-flex">
+                  <i class="bi bi-0-circle-fill fs-3 me-2 text-light"></i>
+                  <p>
+                    <span class="fs-12 text-light">We’d love to hear what you think!</span><br>
+                    <a href="Contact-us.html" class="fs-11 text-decoration-underline text-light">Give Feedback</a>
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="row">
+        </div>
+
+        <!-- Additional Links -->
+        <div class="container-flud wow animate__fadeInUp" data-wow-delay="0.4s">
+          <div class="row   ">
+            <div class="col-md-8 ">
+              <p class="fs-12 text-secondary mt-3">Copyright © Merto. All Rights Reserved</p>
+            </div>
+            <div class="col-md-4 ps-1 align-items-center ">
+              <div class=" mt-3  ps-5">
+                <img class="img-fluid me-3 ps-5" src="assets/Images/contact/payment-icons-1.png" alt="">
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Copyright -->
+        <div class="divider"></div>
+        <div class="row">
+          <div class="col-12 text-center">
+            <p class="copyright">Copyright © Merto. All Rights Reserved</p>
+          </div>
+        </div>
+      </div>
+    </footer>
+  </section>
+
+  <!-- Js bootstrap -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+  <!-- jQuery -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+
+  <!-- Owl Carousel JS -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
+  <!-- main java -->
+  <script>
+    new WOW({
+      boxClass: 'wow',
+      animateClass: 'animate__animated',
+      offset: 20,
+      mobile: true,
+      live: true,
+      scrollContainer: null,
+      resetAnimation: true
+    }).init();
+  </script>
+  <script>
+    new WOW({
+      boxClass: 'wow',
+      animateClass: 'animate__animated',
+      offset: 30,
+      mobile: true,
+      live: true,
+      scrollContainer: null,
+      resetAnimation: true
+    }).init();
+  </script>
+  <script src="assets/js/main.js"></script>
+</body>
+
+</html>
